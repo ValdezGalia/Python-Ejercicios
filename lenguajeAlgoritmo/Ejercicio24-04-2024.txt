@@ -1,0 +1,40 @@
+Algoritmo
+   Var
+      c, s, e, pa, pl, cs, ce, cpa, cpl, t, r1, r2, r3, ca: Entero;
+Inicio
+   Escribir("Indique un numero entero positivo correspondiente a la produccion de canillas diarias: ");
+   leer(c);
+
+   s <-- (c DIV 25);
+   r1 <-- ( c MOD 25 );
+   
+   e <-- ( r1 DIV 10 );
+   r2 <-- ( r1 MOD 10 );
+
+   pa <-- ( r2 DIV 5 );
+   r3 <-- ( r2 MOD 5 );
+   
+   pl <-- ( r3 DIV 3 );
+   ca <-- ( r3 MOD 3 );
+   
+   cs <-- ( s * 76 );
+   ce <-- ( e * 50 );
+   cpa <-- ( pa * 15 );
+   cpl <-- ( pl * 3 );
+   t <-- ( cs + ce + cpa + cpl );
+
+   Escribir("La produccion de canillas diaria es: ", c);
+   Escribir("La cantidad de sacos necesarios es: ", s);
+   Escribir("La cantidad de empaque necesarios es: ", e);
+   Escribir("La cantidad de bolsas de papel necesarios es: ", pa);
+   Escribir("La cantidad de bolsas plasticas necesarios es: ", pl);
+   Escribir("El costo de los sacos es: ", cs);
+   Escribir("El costo de los empaques es: ", ce);
+   Escribir("El costo de las bolsas de papel es: ", cpa);
+   Escribir("El costo de las bolsas plasticas es: ", cpl);
+   Escribir("El costo total es: ", t);
+   Escribir("Las canillas sobrantes son: ", ca);
+Fin
+
+
+

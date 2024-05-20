@@ -1,0 +1,17 @@
+Algoritmo
+    Var
+        cadena, cadena2, cadenaInvertida: Conjunto de caracter;
+Inicio
+    Escribir("Ingrese un texto que termine en punto y final( . ): ");
+    Leer(cadena);
+    cadena2 <-- cadena;
+    cadenaInvertida <-- "";
+
+    Para recorrido <-- Len((cadena2) - 1) Hasta -1 Hacer
+        Si( (cadena2[recorrido] <> " ") Y ( cadena2[recorrido] <> ".")) Entonces
+        FSi
+
+
+
+
+Fin

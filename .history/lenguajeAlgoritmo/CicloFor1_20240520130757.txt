@@ -1,0 +1,60 @@
+Algoritmo
+    cadena, cadena2: Conjunto de caracter;
+Inicio
+    Escribir("Ingrese un texto que termine en punto y final ( . ): ");
+    Leer(cadena);
+
+    Para recorrido <-- 0 Hasta Len(cadena) Hacer
+        Si( (cadena[recorrido] <> " ") Y (cadena[recorrido] <> "." ) ) Entonces
+            Si( (cadena[recorrido] = "a") O ( cadena[recorrido] == "A" )) Entonces
+                cadena2 <-- (cadena2 + "");
+
+                SINO
+                    cadena2 <-- cadena[recorrido];
+            FSi
+
+            Si((cadena[recorrido] = "a") O ( cadena[recorrido] == "A" )) Entonces
+                cadena2 <-- (cadena2 + "");
+
+                SINO
+                    cadena2 <-- cadena[recorrido];
+            FSi
+
+            Si((cadena[recorrido] = "e") O ( cadena[recorrido] == "E" )) Entonces
+                cadena2 <-- (cadena2 + "");
+
+                SINO
+                    cadena2 <-- cadena[recorrido];
+            FSi
+
+            Si((cadena[recorrido] = "i") O ( cadena[recorrido] == "I" )) Entonces
+                cadena2 <-- (cadena2 + "");
+
+                SINO
+                    cadena2 <-- cadena[recorrido];
+            FSi
+
+            Si((cadena[recorrido] = "o") O ( cadena[recorrido] == "O" )) Entonces
+                cadena2 <-- (cadena2 + "");
+
+                SINO
+                    cadena2 <-- cadena[recorrido];
+            FSi
+
+            Si((cadena[recorrido] = "u") O ( cadena[recorrido] == "U" )) Entonces
+                cadena2 <-- (cadena2 + "");
+                
+                SINO
+                    cadena2 <-- cadena[recorrido];
+            FSi
+
+            SINO
+                cadena2 <-- ( cadena2 + " " );
+        FSI     
+    FPara  
+
+    Escribir("El nuevo texto es: ")
+    Escribir(cadena2)
+    
+
+Fin

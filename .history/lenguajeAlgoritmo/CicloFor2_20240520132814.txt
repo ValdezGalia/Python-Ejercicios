@@ -1,0 +1,6 @@
+Algoritmo
+    Var
+        cadena, cadena2, cadenaInvertida: Conjunto de caracter;
+Inicio
+
+Fin

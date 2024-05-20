@@ -1,0 +1,13 @@
+Algoritmo
+    Var
+        cadena, cadena2, cadenaInvertida: Conjunto de caracter;
+Inicio
+    Escribir("Ingrese un texto que termine en punto y final( . ): ");
+    Leer(cadena);
+    cadena2 <-- cadena;
+    cadenaInvertida <-- "";
+
+
+
+
+Fin

@@ -1,0 +1,17 @@
+Algoritmo
+    cadena, cadena2: Conjunto de caracter;
+Inicio
+    Escribir("Ingrese un texto que termine en punto y final ( . ): ");
+    Leer(cadena);
+
+    Para recorrido <-- 0 Hasta Len(cadena) Hacer
+        Si( (cadena[recorrido] <> " ") Y (cadena[recorrido] <> "." ) ) Entonces
+        
+            SINO
+                cadena2 = cadena2 + " "
+        
+        FSI        
+
+
+
+Fin

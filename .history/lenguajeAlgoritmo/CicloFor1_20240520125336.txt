@@ -1,0 +1,5 @@
+Algoritmo
+    c1, c2: Conjunto de caracter;
+Inicio
+
+Fin

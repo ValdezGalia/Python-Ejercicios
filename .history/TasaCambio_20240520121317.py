@@ -7,7 +7,7 @@ dolarBCV, dolarParalelo, dineroIngresado = 0, 0, 0
 def main():
     print("========================== Bienvenidos a tasa de cambio ==========================")
     print(f"\nTasas por cada dolar:\n$ BCV: {tasaBCV}Bs\n$ Paralelo: {tasaParalelo}Bs\n-----------------------\n")
-    dineroIngresado = int(input("Ingrese cantidad en dolares : $"))
+    dineroIngresado = int(input("Ingrese cantidad: $"))
     
     if dineroIngresado <= 0:
         print("No se puede realizar la operacion,\nporque el numero ingresado no es mayor a 0")

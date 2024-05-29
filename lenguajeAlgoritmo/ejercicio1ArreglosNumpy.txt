@@ -1,0 +1,20 @@
+Algoritmo
+        Tipo
+            x = arreglo[0..8]de Entero;
+        Var
+            i, may, pos, num: Entero;
+            n: x;
+Inicio
+    Para i <-- 0 Hasta 8 Hacer
+        Escribir("Indique un valor entero: ");
+        Leer(num);
+        n[i] <-- num;
+    FPara
+
+    Escribir("Los numeros almacenados en el arreglo son: ");
+
+    Para i <-- 0 Hasta 8 hacer
+        Escribir(n[i]);
+    FPara
+
+Fin
